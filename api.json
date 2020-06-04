@@ -1,0 +1,14 @@
+{
+    "cpp":
+    {
+        "name": "cpp",
+        "description": "IOE cpp lab",
+        "path": "cpp"
+    },
+    "COA":
+    {
+        "name":"COA",
+        "description":"IOE Pulchowk Campus COA lab",
+        "path": "COA"
+    }
+}

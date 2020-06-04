@@ -1,0 +1,283 @@
+{    "title": "Cpp Lab",
+     "repo": "cpp",
+    "description" : "IOE pulchowk Cpp lab question and answer",
+     "labs" : [
+         {
+             "no": 1,
+             "description" : "lab1",
+             "files":[
+                 {
+                     "src":"lab1/error.c",
+                     "description":"Store and retrieve the name of the students and obtained marks in c programming in 1st semester using structure."
+                 },
+                 {
+                     "src":"lab1/find.c",
+                     "description":"Write a program to find the position of the character 'C' in the sentence 'idea without execution is worthless' using pointer and string."
+                 },
+                 {
+                     "src":"lab1/inf.c",
+                     "description":"WAP to read name, rollno, address, and phone number of each student in your class using structure. Store the information in file so that you can recover the information later While recovering the inforamtion from the file sort the information alphabetically according to the name"
+                 },
+                 {
+                     "src":"lab1/info.c",
+                     "description":"Write a program to find the average expenditure of a company for each month of each year, each year and average over the range of years specified. Use arrays to construct a table, display the table of expenditure and find the sum and average. "
+                 },
+                 {
+                     "src":"lab1/stu.c",
+                     "description":"Store and retrieve the name of the students and obtained marks in c programming in 1st semester using structure."
+                 }
+             ]
+         },
+         
+         {
+             "no": 2,
+             "description" : "lab2",
+             "files":[
+                 {
+                     "src":"lab2/date.cpp",
+                     "description":"Write a program to set a structure to hold a date (mm,dd and yy), assign values to the members of the structure and print out the values in the format 11/28/2004 by function. Pass the structure to the function"
+                 },
+                 {
+                     "src":"lab2/convert.cpp",
+                     "description":"Write a program using the function overloading that converts feet to inches. Use function with no argument, one argument and two arguments. Decide yourself the types of arguments. Use pass by reference in any one of the function above."
+                 },
+                 {
+                     "src":"lab2/employee.cpp",
+                     "description":"Assume that employee will have to pay 10 percent income tax to the government. Ask user to enter the employee salary. Use inline function to display the net payment to the employee by the company."
+                 },
+                 {
+                     "src":"lab2/namespace.cpp",
+                     "description":"Define two namespaces: Square and Cube. In both the namespaces, define an integer variable named 'num' and a function named 'fun'. The 'fun' function in 'Square' namespace, should return the square of an integer passed as an argument while the 'fun' function in 'Cube' namespace, should return the cube of an integer passed as an argument. In the main function, set the integer variables 'num' of both the namespaces with different values. Then, compute and print the cube of the integer variable 'num' of the 'Square' namespace using the 'fun' function of the 'Cube' namespace and the square of the integer variable 'num' of the 'Cube' namespace using the 'fun' function of the 'Square' namespace"
+                 },
+                 {
+                     "src":"lab2/staff.cpp",
+                     "description": "Write a program that displays the current monthly salary of chief executive officer, information officer, and system analyst, programmer that has been increased by 9, 10, 12, and 12 percentages respectively in year 2010. Let us assume that the salaries in year 2009 are <br> Chief executive officer Rs. 35000/m \n Information officer Rs. 25000/m \n System analyst Rs. 24000/m \n Programmer Rs. 18000/m \n Make function that takes two arguments; one salary and other increment. Use proper default argument."
+                 },
+                 {
+                     "src":"lab2/temp.cpp",
+                     "description":"Write a function that passes two temperatures by reference and sets the larger of the two numbers to 100 by using return by reference."
+                 }
+             ]
+         },
+         
+         {
+             "no": 3,
+             "description" : "lab3",
+             "files":[
+                                  {
+                     "no": 1,
+                     "src":"lab3/temp.cpp",
+                     "description":"Write a simple program that convert the temperature in degree Celsius to degree Fahrenheit and vice versa using the basic concept of class and object. Make separate class for Centigrade and Fahrenheit which will have the private member to hold the temperature value and make conversion functions in each class for conversion from one to other. For example you will have function toFahrenheit() in class Celsius that converts to Fahrenheit scale and returns the value. "
+                                  },
+                 {
+                     "no": 2,
+                     "src":"lab3/employee.cpp",
+                     "description":"Assume that an object represents an employee report that contains the information like employee id, total bonus, total overtime in a particular year. Use  array of objects to represent n employees' reports. Write a program that displays report. Use setpara() member function to set report attributes by passing the arguments and member function displayreport() to show the reports according to parameter passed. Display the report in following format. \n Employee with ... ... ... has received Rs ... ... ...as bonus and \n had worked ... ... ... hours as a over time in  year ... ... ... "
+                 },
+                 {
+                     "no": 2,
+                     "src":"lab3/prime.cpp",
+                     "description":"Assume that you want to check whether the number is prime or not. Write a program that asks for a number repeatedly. When it finishes the calculation the program asks if the user wants to do another calculation. The response can be 'y' or 'n'. Don't forget to use the object class concept."
+                 },
+                 {
+                     "no":3,
+                     "src":"lab3/carpark.cpp",
+                     "description":"Create a class called carpart that has int data member for car id, int data member for charge/hour and float data member for time. Set the data and show the charges and parked hours of corresponding car id. Make two member functions for setting and showing the data. Member function should be called from other functions."
+                 },
+                 {
+                     "no":4,
+                     "src":"lab3/objects.cpp",
+                     "description":"Write a program with classes to represent circle, rectangle and triangle. Each classes should have data members to represent the actual objects and member functions to read and display objects, find perimeter and area of the objects and other useful functions. Use the classes to create objects in your program."
+                 }                 
+
+             ]
+         },
+         
+         {
+             "no": 4,
+             "description" : "lab4",
+             "files":[
+                 {
+                     "no":3,
+                     "src":"lab4/deparment.cpp",
+                     "description":"Write a class that can store Department ID and Department Name with constructors to initialize its members. Write destructor member in the same class and display the message 'Object n goes out of the scope'. Your program should be made such that it should show the order of constructor and destructor invocation."
+                 },
+                 {
+                     "no":6,
+                     "src":"lab4/static.cpp",
+                     "description":"Create a class with a data member to hold 'serial number' for each object created from the class. That is, the first object created will be numbered 1, the second 2 and so on by using the basic concept of static data members. Use static member function if it is useful in any of the member functions declared in the program. Otherwise make separate program that demonstrate the use of static member function."
+                 },
+                 {
+                     "no" : 1,
+                     "src":"lab4/string.cpp",
+                     "description":"Write a program that has a class with a dynamically allocated character array as its data member. One object should contain 'Engineers are' and another should contain 'Creatures of logic'. Member function join() should concatenate two strings by passing two objects as arguments. Display the concatenated string through a member function. Use constructors to allocate and initialize the data member. Also, write a destructor to free the allocated memory for the character array. Make your own function for concatenation of two strings."
+                 },
+                 {
+                     "no":1,
+                     "src":"lab4/time.cpp",
+                     "description":"Write a program that has a class to represent time. The class should have constructors to initialize data members hour, minute and second to 0 and to initialize them to values passed as arguments. The class should have member function to add time objects and return the result as time object. There should be another function to display the result in 24 hour format."
+                 },
+                 {
+                     "no":4,
+                     "src":"lab4/vehicle.cpp",
+                     "description":"Assume that one constructor initializes data member say num_vehicle, hour and rate. There should be 10% discount if num_vehicle exceeds 10. Display the total charge. Use two objects and show bit-by-bit copy of one object to another (make your own copy constructor)."
+                 },
+                 {
+                     "src":"lab4/const.cpp",
+                     "description": "Write a program that illustrate the following relationship and comment the relationships.i) const_object.non_const_mem_function ii) const_object.const_mem_function iii) non_const_object.non_const_mem_function iv) non_const_object.const_mem_function"
+                 }
+             ]
+         },
+         
+         {
+             "no": 5,
+             "description" : "lab5",
+             "files":[
+                 {
+                     "no": 1,
+                     "src":"lab5/cordinate.cpp",
+                     "description":"1. Write a class for instantiating the objects that represent the two-dimensional Cartesian coordinate system. A. make a particular member function of one class to friend function in another class for addition B. make other three functions to work as a bridge between the classes for multiplication, division and subtraction. C. Also write a small program to demonstrate that all the member functions of one class are the friend functions of another class if the former class is made friend to the latter. Make least possible classes to demonstrate all above in single program without conflict."
+                 },
+                 {
+                     "no":4,
+                     "src":"lab5/date.cpp",
+                     "description":"Write a class Date that uses pre increment and post increment operators to add 1 to the day in the Date object, while causing appropriate increments to the month and year (use the appropriate condition for leap year). The pre and post increment operators in your Date class should behave exactly as the built in increment operators."
+                 },
+                 {
+                     "no":3,
+                     "src":"lab5/Integer.cpp",
+                     "description":"Compare the two object that contains integer values that demonstrate the overloading of equality (==), less than (<), greater than (>), not equal (!=),greater than or equal to (>=) and less than or equal to(<=) operators. "
+                 },
+                 {
+                     "no":3,
+                     "src":"lab5/vector.cpp",
+                     "description":"Write a class to store x, y, and z coordinates of a point in three-dimensional space. Using operator overloading, write friend functions to add, and subtract the vectors."
+                 }
+             ]
+         },
+         
+         {
+             "no": 6,
+             "description" : "lab6",
+             "files":[
+                 {
+                     "no":5,
+                     "src":"lab6/complex.cpp",
+                     "description":"Write base class that ask the user to enter a complex number and make a derived class that adds the complex number of its own with the base. Finally make third class that is friend of derived and calculate the difference of base complex number and its own complex number."
+                 },
+                 {
+                     "no": 1,
+                     "src":"lab6/distance.cpp",
+                     "description":"Write a program that can convert the Distance (meter, centimeter) to meters measurement in float and vice versa. Make a class distance with two data members, meter and centimeter. You can add function members as per your requirement."
+                 },
+                 {
+                     "no":2,
+                     "src":"lab6/meter-feet.cpp",
+                     "description":"Write two classes to store distances in meter-centimeter and feet-inch system respectively. Write conversions functions so that the program can convert objects of both types."
+                 },
+                 {
+                     "src":"lab6/musicain.cpp",
+                     "description":"Create a class called Musicians to contain three methods string ( ), wind ( ) and perc ( ). Each of these methods should initialize a string array to contain the following instruments \n -  veena, guitar, sitar, sarod and mandolin under string ( ) \n -  flute, clarinet saxophone, nadhaswaram and piccolo under wind ( ) \n -  tabla, mridangam, bangos, drums and tambour under perc ( ) \n It should also display the contents of the arrays that are initialized. Create a derived class called TypeIns to contain a method called get ( ) and show ( ). The get ( ) method must display a  menu as follows \n Type of instruments to be displayed \n  a. String instruments \n b. Wind instruments\n c. Percussion instruments \n The show ( ) method should display the relevant detail according to our choice. The base class variables must be accessible only to its derived classes"
+                 },
+                 {
+                     "src":"lab6/person.cpp",
+                     "description":"Write three derived classes inheriting functionality of base class person (should have a member function that asks to enter name and age) and with added unique features of student, and employee, and functionality to assign, change and delete records of student and employee. And make one member function for printing address of the objects of classes (base and derived) using this pointer. Create two objects of base class and derived classes each and print the addresses of individual objects. Using calculator, calculate the address space occupied by each object and verify this with address spaces printed by the program"
+                 }
+             ]
+         },
+
+         {
+             "no": 7,
+             "description" : "lab7",
+             "files":[
+                 {
+                     "no":2,
+                     "src":"lab7/person.cpp",
+                     "description":"Create a class Person and two derived classes Employee, and Student, inherited from class Person. Now create a class Manager which is derived from two base classes Employee and Student. Show the use of the virtual base class."
+                 },
+                 {
+                     "no":1,
+                     "src":"lab7/shape.cpp",
+                     "description":"Write a program to create a class shape with functions to find area of the shapes and display the name of the shape and other essential component of the class. Create derived classes circle, rectangle and trapezoid each having overridden functions area and display. Write a suitable program to illustrate virtual functions and virtual destructor."
+                 },
+                 {
+                     "no":3,
+                     "src":"lab7/Student.cpp",
+                     "description":"Write a program with Student as abstract class and create derive classes Engineering, Medicine and Science from base class Student. Create the objects of the derived classes and process them and access them using array of pointer of type base class Student."
+                 },
+                 {
+                     "no":4,
+                     "src":"lab7/Vehicle.cpp",
+                     "description":"Create a polymorphic class Vehicle and create other derived classes Bus, Car and Bike from Vehicle. With this program illustrate RTTI by the use of dynamic_cast and typeid operators."
+                 }
+             ]
+         },
+         
+         {
+             "no": 8,
+             "description" : "lab8",
+             "files":[
+                 {
+                     "src":"lab8/complex.cpp",
+                     "description":"Write a program to overload stream operators to read complex number and display the complex number in a+ib format."
+                 },
+                 {
+                     "src":"lab8/department.cpp",
+                     "description":"Write a program to demonstrate the use of different ios flags and functions to format the output. Create a program to generate the bill invoice of a department store by using different formatting."
+                 },
+                 {
+                     "src":"lab8/manipulator.cpp",
+                     "description":"Write a program to create a userdefined manipulator that will format the output by setting the width, precision and fill character at the same time by passing arguments"
+                 },
+                 {
+                     "src":"lab8/student.cpp",
+                     "description":"Write a program that stores the information about students (name, student id,department and address) in a structure and then transfers the information to a file in your directory. Finally, retrieve the information from yourÂ  file and print in the proper format on your output screen."
+                 },
+                 {
+                     "src":"lab8/transaction.cpp",
+                     "description":"Write a program for transaction processing that write and read object randomly to and from a random access file so that user can add, update, delete and display the account information (accountnumber, lastname, firstname, totalbalance)."
+                 }
+             ]
+         },
+         
+         {
+             "no": 9,
+             "description" : "lab9",
+             "files":[
+                 {
+                     "src":"lab9/catch.cpp",
+                     "description":"Write any program that demonstrates the use of multiple catch handling, re-throwing an exception, and catching all exception."
+                 },
+                 {
+                     "src":"lab9/queue.cpp",
+                     "description":"Write a class template for queue class. Assume the programmer using the queue won't make mistakes, like exceeding the capacity of the queue, or trying to remove an item when the queue is empty. Define several queues of different data types and insert and remove data from them."
+                 },
+                 {
+                     "src":"lab9/stack.cpp",
+                     "description":"Modify the stack class given in the previous lab to add the exception when user tries to add item while the stack is full and when user tries to add item while the stack is empty. Throw exception in both of the cases and handle these exceptions."
+                 },
+                 {
+                     "src":"lab9/sum.cpp",
+                     "description":"Create a function called sum ( ) that returns the sum of the elements of an array. Make this function into a template so it will work with any numerical type. Write a main ( ) program that applies this function to data of various type."
+                 }
+             ]
+         },
+
+         {
+             "no" : "old is gold",
+             "description" : "Some old of gold question solution",
+             "files" : [
+                 {
+                     "src" : "oldisgold/deparment.cpp",
+                     "description" : "Write a Program that can store Department ID and Department name with constructor. Also write destructor in the same class and show that objects are destroyed in reverse order of creation with suitable message"
+                 },
+                 {
+                     "src" : "oldisgold/LandMeasure.cpp",
+                     "description" : "Write a Program to create a class LandMeasure that reads Ropani,ana, paisa and Dam as its data members. Write a function to pass two object of type land measure and return its sum"
+                 }
+                 ]
+         }
+     ]
+}
+
+
