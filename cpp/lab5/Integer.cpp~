@@ -1,0 +1,16 @@
+/********
+ *
+ * Sujit Maharjan
+ * lab 5
+ * 
+ * problem 
+ *
+ */
+#include <iostream>
+
+#define SUCCESS 0
+using namespace std;
+int main()
+{
+  return SUCCESS;
+}

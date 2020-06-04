@@ -1,0 +1,21 @@
+/*********
+ * 
+ * Sujit Maharjan
+ *
+ * lab4
+ * problem 1
+ *
+ * Write a program that has a class to represent time. The class should have constructors to initialize data members hour, minute and second to 0 and to initialize them to values passed as arguments. The class should have member function to add time objects and return the result as time object. There should be another function to display the result in 24 hour format.
+ *
+ */
+#include <isotream>
+
+#define SUCCESS 0
+
+using namespace std;
+
+int main()
+{
+
+  return SUCESS;
+}
