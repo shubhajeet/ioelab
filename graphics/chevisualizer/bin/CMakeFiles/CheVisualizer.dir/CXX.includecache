@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sujit/graphics/chevisualizer/src/Config.h
+
+/home/sujit/graphics/chevisualizer/src/Window.h
+stdlib.h
+-
+string
+-
+GL/glew.h
+-
+GL/glut.h
+-
+math.h
+-
+
+/home/sujit/graphics/chevisualizer/src/main.cpp
+stdlib.h
+-
+string.h
+-
+GL/glew.h
+-
+GL/glut.h
+-
+math.h
+-
+iostream
+-
+string
+-
+Config.h
+/home/sujit/graphics/chevisualizer/src/Config.h
+Window.h
+/home/sujit/graphics/chevisualizer/src/Window.h
+

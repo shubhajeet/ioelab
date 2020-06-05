@@ -1,0 +1,2 @@
+/home/sujit/graphics/chevisualizer/bin/CMakeFiles/CheVisualizer.dir
+/home/sujit/graphics/chevisualizer/bin/CMakeFiles/GUI.dir

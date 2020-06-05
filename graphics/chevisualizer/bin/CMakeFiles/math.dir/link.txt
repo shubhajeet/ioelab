@@ -1,0 +1,2 @@
+/usr/bin/ar cq libmath.a  CMakeFiles/math.dir/Matrics.cpp.o
+/usr/bin/ranlib libmath.a

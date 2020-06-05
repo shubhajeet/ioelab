@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sujit/graphics/chevisualizer/src/Matrics.cpp
+Matrics.h
+/home/sujit/graphics/chevisualizer/src/Matrics.h
+
+/home/sujit/graphics/chevisualizer/src/Matrics.h
+iostream
+-
+GL/glew.h
+-
+vector
+-
+glm
+-
+
