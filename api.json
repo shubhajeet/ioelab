@@ -16,5 +16,29 @@
         "name":"nm",
         "description":"IOE Pulchowk Campus Numerical Method lab",
         "path":"nm"
+    },
+    "signal":
+    {
+        "name":"signal",
+        "description":"IOE Pulchowk Campus singal lab",
+        "path":"signal"
+    },
+    "graphics":
+    {
+        "name":"graphics",
+        "description":"IOE Pulchowk Campus graphics lab",
+        "path":"graphics"
+    },
+    "instrumentation-II":
+    {
+        "name":"instrumentation-II",
+        "description":"IOE Pulchowk Campus instrumentation-II lab",
+        "path":"instrumentation-II"
+    },
+    "dsp":
+    {
+        "name":"dsp",
+        "description":"IOE Pulchowk Campus Digital Signal Processing lab",
+        "path":"dsp"
     }
 }
