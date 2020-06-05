@@ -20,22 +20,16 @@ app.controller('labListController', function ($scope, $route, $routeParams, $loc
                 {
                     $scope.codeDisplay($routeParams.qNo);
                 }
-                else
-                {
-                    $scope.codeDisplay(0);
-                }
             }
             else
             {
                 $scope.labfileDisplay(0);
-                $scope.codeDisplay(0);
             }
         }
         else
         {
             $scope.getLab(Object.keys($scope.labs)[0]);
             $scope.labfileDisplay(0);
-            //$scope.codeDisplay(0);
         }
     };
 
@@ -45,7 +39,7 @@ app.controller('labListController', function ($scope, $route, $routeParams, $loc
         $http.get($scope.labs[lab]["path"]+"/api.json").success(function(response) {
             $scope.data = response;
         });
-        $location.path("/"+$scope.state.labname+"/"+lab);
+        $location.path("/"+$scope.state.labname+"/0");
     };
     $scope.labfileDisplay = function(labno)
     {
