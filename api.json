@@ -11,4 +11,10 @@
         "description":"IOE Pulchowk Campus COA lab",
         "path": "COA"
     }
+    "nm":
+    {
+        "name":"nm",
+        "description":"IOE Pulchowk Campus Numerical Method lab",
+        "path":"nm"
+    }
 }

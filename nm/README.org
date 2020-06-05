@@ -1,0 +1,10 @@
+* Numerical Methods Practical lab
+  This is the numerical method practical done by Sujit Maharjan.
+  IOE Pulchowk.
+* Report Writing Format
+** title
+** theory
+** algorithm (pseudo code)
+** program code (C)
+** input/output \times 3
+** conclusion or discussion

@@ -1,0 +1,157 @@
+{    "title": "Numerical Method Lab",
+     "repo": "numericalMethod",
+    "description" : "IOE pulchowk Numerical Method lab question and answer",
+     "labs" : [
+         {
+             "no": 1,
+             "description" : "Roots of polynomial equation using bisection method",
+             "files":[
+                 {
+                     "no": "1",
+                     "src":"lab1/bisection.c",
+                     "description":"Use of bisection Method to solve polynomical equation"
+                 }
+             ]
+         },
+         {
+             "no": 2,
+             "description" : "Solution of system of linear algebraic equation",
+             "files":[
+                 {
+                     "src":"lab2/GaussElimination.c",
+                     "description":"Solution of system of linear algebraic equation by Gauss Elimination method"
+                 },
+                 {
+                     "src":"lab2/GaussJordan.c",
+                     "description":"Solution of system of linear algebraic equation by Gauss Jordan method"
+                 }
+             ]
+         },
+         
+         {
+             "no": 3,
+             "description" : "lab3",
+             "files":[
+                 {
+                     "no": 1,
+                     "src":"lab3/InvGauss.c",
+                     "description":"Solution of system of linear algebraic equation. Inverse of Matrix via Gauss Jordan Method"
+                 },
+                 {
+                     "no": 2,
+                     "src":"lab3/newtonMethod.c",
+                     "description":"Roots of polynomial equation by newton method"
+                 },
+                 {
+                     "no": 2,
+                     "src":"lab3/secant.c",
+                     "description":"Roots of polynomial equation by secant method"
+                 }
+
+             ]
+         },
+         
+         {
+             "no": 4,
+             "description" : "lab4",
+             "files":[
+                 {
+                     "no":3,
+                     "src":"lab4/euler.c",
+                     "description":"Solution of Differential equation by euler method"
+                 },
+                 {
+                     "no":6,
+                     "src":"lab4/falsi.c",
+                     "description":"Root of the equation by falsi method"
+                 },
+                 {
+                     "no" : 1,
+                     "src":"lab4/rk4.c",
+                     "description":"Solution of differential eqution by RK4 method"
+                 }
+             ]
+         },
+         
+         {
+             "no": 5,
+             "description" : "lab5",
+             "files":[
+                 {
+                     "no":4,
+                     "src":"lab5/powerMethods.c",
+                     "description":"Use of power method to find eigen value of the matrix"
+                 },
+                 {
+                     "no":3,
+                     "src":"lab5/rk4for2ndorder.c",
+                     "description":"Solution of 2nd Order Differential equation by RK4 method"
+                 }
+             ]
+         },
+         {
+             "no": 6,
+             "description" : "Numerical Integration",
+             "files":[
+                 {
+                     "no":5,
+                     "src":"lab6/int.c",
+                     "description":"Numerical Integration by Simpson 5/3"
+                 },
+                 {
+                     "no": 1,
+                     "src":"lab6/intdata.c",
+                     "description":"Numerical Integration by Simpson 5/3"
+                 },
+                 {
+                     "no":2,
+                     "src":"lab6/simpson13rd.c",
+                     "description":"Numerical Integration by Simpson 1/3"
+                 },
+                 {
+                     "src":"lab6/simpson38th.c",
+                     "description":"Numerical Integration by Simpson 3/8"
+                 },
+                 {
+                     "src":"lab6/trapezoidal.c",
+                     "description":"Numerical Integration by Trapezoidal method"
+                 }
+             ]
+         },
+         {
+             "no": 7,
+             "description" : "Regression",
+             "files":[
+                 {
+                     "src":"lab7/exp.c",
+                     "description":"exponential curve fitting by using linear regression"
+                 },
+                 {
+                     "src":"lab7/linear.c",
+                     "description":"straight line fitting by linear regression"
+                 }
+             ]
+         },
+         
+         {
+             "no": 8,
+             "description" : "lab8",
+             "files":[
+                 {
+                     "src":"lab8/curvefitting.c",
+                     "description":"Curve Fitting of n points"
+                 },
+                 {
+                     "src":"lab8/lagranges.c",
+                     "description":"Curve Fitting by using lagranges formula"
+                 }
+             ]
+         }         
+     ]
+}
+
+
+
+
+
+
