@@ -1,0 +1,374 @@
+* State 1
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+
+* State 2
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+* State 3
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+* State 4
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+* State 5
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+
+
+* State 1
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+
+* State 2
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+* State 3
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+* State 4
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |
+* State 5
+** SOUTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA3  |        |
+| YELLOW     | PA2  |        |
+| LEFT       | PA0  |        |
+| STRAIGHT   | PC3  |        |
+| RIGHT      | PA1  |        |
+| PEDESTRIAN | PC6  |        |
+** EAST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PA7  |        |
+| YELLOW     | PA6  |        |
+| LEFT       | PA4  |        |
+| STRAIGHT   | PC2  |        |
+| RIGHT      | PA5  |        |
+| PEDESTRIAN | PC7  |        |
+** NORTH
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB3  |        |
+| YELLOW     | PB2  |        |
+| LEFT       | PB0  |        |
+| STRAIGHT   | PC1  |        |
+| RIGHT      | PB1  |        |
+| PEDESTRIAN | PC4  |        |
+** WEST
+| LED        | Port | Status |
+|------------+------+--------|
+| RED        | PB7  |        |
+| YELLOW     | PB6  |        |
+| LEFT       | PB4  |        |
+| STRAIGHT   | PC0  |        |
+| RIGHT      | PB5  |        |
+| PEDESTRIAN | PC5  |        |

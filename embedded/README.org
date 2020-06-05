@@ -1,0 +1,5 @@
+* Embedded system
+This repository contains the lab work of the embedded system which contains 8051 and Xilinx fpga.
+** Software Used
+- MCU 8051 IDE
+- Xilinx ISE

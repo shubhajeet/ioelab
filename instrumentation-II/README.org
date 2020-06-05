@@ -1,0 +1,14 @@
+* Lab work of Instrumenation II
+** About
+This is the lab of the instrumentation II course offered by the Institute of Engineering, Central Campus Pulchowk, Tribhuwan University, Nepal. It contains the lab assignment and the code executed in the lab.
+** Software and Equipments
+*** 8085 trainer kits
+All the code in this git repository are designed to run in 8085 trainer kit available in the Pulchowk Engineering Campus lab. Therefore may not exactly resemble what you have.
+*** Software
+GnuSim8085 has been used to test the correctness of the programs as much as possible.
+To install the software in ubuntu. Run the above code in the terminal.
+#+begin_src bash
+sudo apt-get install gnusim8085
+#+end_src
+** Author
+Sujit Maharjan
