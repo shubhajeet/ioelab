@@ -1,0 +1,14 @@
+t = [-2:0.1:2];
+val = exp(j*4*pi/3*t);
+r = real(val);
+im = imag(val);
+subplot(2,1,1);
+plot(t,r);
+title('real(e^{j4pit/3})');
+xlabel('time');
+ylabel('val');
+subplot(2,1,2);
+plot(t,im);
+title('imag(e^{j4pit/3})');
+xlabel('time');
+ylabel('val');  
